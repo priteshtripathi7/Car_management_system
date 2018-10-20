@@ -1,0 +1,174 @@
+/*----------------------------------
+  Colors
+------------------------------------*/
+/* Text Colors */
+.g-color--primary {
+  color: #13b1cd !important;
+}
+
+.g-color--blueviolet {
+  color: #9877ea !important;
+}
+
+.g-color--red {
+  color: #c54041 !important;
+}
+
+.g-color--gold {
+  color: #b99769 !important;
+}
+
+.g-color--body {
+  color: #fff !important;
+}
+
+.g-color--dark {
+  color: #222324 !important;
+}
+
+.g-color--dark-light {
+  color: #242526 !important;
+}
+
+.g-color--heading {
+  color: #242424 !important;
+}
+
+.g-color--white {
+  color: #fff !important;
+}
+
+.g-color--text {
+  color: #656565 !important;
+}
+
+.g-color--gray-light {
+  color: #cecece !important;
+}
+
+.g-color--gray-lighter {
+  color: #aeaeae !important;
+}
+
+.g-color--white-opacity {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.g-color--white-opacity-light {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.g-color--white-opacity-lighter {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.g-color--white-opacity-lightest {
+  color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.g-color--sky-light {
+  color: #f5f8f9 !important;
+}
+
+/* Hover Colors */
+.g-color--text[href]:hover {
+  color: #13b1cd !important;
+}
+
+.g-color--white-opacity[href]:hover {
+  color: #13b1cd !important;
+}
+/* Background Colors */
+.g-bg-color--primary {
+  background-color: #13b1cd !important;
+}
+
+.g-bg-color--blueviolet {
+  background-color: #9877ea !important;
+}
+
+.g-bg-color--red {
+  background-color: #c54041 !important;
+}
+
+.g-bg-color--gold {
+  background-color: #b99769 !important;
+}
+
+.g-bg-color--body {
+  background-color: #fff !important;
+}
+
+.g-bg-color--dark {
+  background-color: #222324 !important;
+}
+
+.g-bg-color--dark-light {
+  background-color: #242526 !important;
+}
+
+.g-bg-color--heading {
+  background-color: #242424 !important;
+}
+
+.g-bg-color--white {
+  background-color: #fff !important;
+}
+
+.g-bg-color--text {
+  background-color: #656565 !important;
+}
+
+.g-bg-color--gray-light {
+  background-color: #cecece !important;
+}
+
+.g-bg-color--gray-lighter {
+  background-color: #efefef !important;
+}
+
+.g-bg-color--white-opacity {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.g-bg-color--white-opacity-light {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.g-bg-color--white-opacity-lighter {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.g-bg-color--white-opacity-lightest {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.g-bg-color--sky-light {
+  background-color: #f5f8f9 !important;
+}
+
+.g-bg-color--primary-to-blueviolet-ltr {
+  background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, rgba(152, 119, 234, 0.95) 100%);
+  background-repeat: repeat-x;
+}
+
+.g-bg-color--primary-ltr {
+  background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.6) 0%, #13b1cd 100%);
+  background-repeat: repeat-x;
+}
+.g-bg-color--White-ice {
+  background-color: #d5ebdf !important;
+}
+
+.g-bg-color--something {
+  background-color: #cbf0f8 !important;
+}
+.g-bg-color--party-bliss {
+  background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+}
+.g-bg-color--colourful-peach {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.g-bg-color--dense-water {
+  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+}

@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+}
+
+.parallax_loader{
+		
+	background-image: url('../img/loader-1.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.name_comp{
+	text-align:center;
+	padding-top: 10%;
+}
+.about_sec{
+	
+	padding: 5%;
+}
