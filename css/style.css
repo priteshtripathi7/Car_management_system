@@ -5,22 +5,34 @@ body, html {
 .parallax_loader{
 		
 	background-image: url('../img/loader-1.jpg');
-
-    /* Full height */
     height: 100%; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
+.para_content{
+    text-align: center;
+}
+
 .name_comp{
 	text-align:center;
 	padding-top: 10%;
 }
+
 .about_sec{
 	
-	padding: 5%;
+	padding: 3%;
+}
+
+header{
+    position: fixed;
+    background-color: transparent;
+    padding-top: 2px;
+}
+
+#logo{
+    height: 3.5em;
+    width:auto;
 }

@@ -1,4 +1,169 @@
 /*----------------------------------
+  Containers
+------------------------------------*/
+/*5px distance container*/
+   @media (max-width: 33em){
+  .g-row-col--xs-5{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 0.625em;
+ }
+   .g-row-col--xs-10{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 1.125em;
+ }
+}
+  /* Small screen / phone */
+  @media (min-width: 34em){
+   .g-row-col--xs-5{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 0.625em;
+ }
+   .g-row-col--xs-10{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 1.125em;
+ }
+}
+  /* Medium screen / tablet */
+  @media (min-width: 48em){
+    .g-row-col--xs-5{
+   display: grid;
+   grid-template-columns: 4fr 8fr;
+   grid-gap: 0.625em;
+ }
+   .g-row-col--xs-10{
+   display: grid;
+   grid-template-columns: 4fr 8fr;
+   grid-gap: 1.125em;
+ }
+}
+  /* Extra large screen / wide desktop */
+  @media (min-width: 62em){
+    .g-row-col--xs-5{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 0.625em;
+  }
+   .g-row-col--xs-10{
+   display: grid;
+   grid-template-columns: 4fr 8fr;
+   grid-gap: 1.125em;
+  }
+ }
+
+/*----------------------------------
+  display-headers
+------------------------------------*/
+
+/*.display-1{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.display-2{
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.display-3{
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.display-4{
+  font-size: 20px;
+  font-weight: 100;
+}
+*/
+
+/*----------------------------------
+  Font Family
+------------------------------------*/
+.g-font-family--primary {
+  font-family: Lato, sans-serif !important;
+}
+
+.g-font-family--secondary {
+  font-family: Montserrat, sans-serif !important;
+}
+
+.g-font-family--playfair {
+  font-family: Playfair Display, serif !important;
+}
+
+.g-font-family--Alegreya {
+  font-family: 'Alegreya', serif !important;
+}
+
+
+/*----------------------------------
+  Font Weight
+------------------------------------*/
+.g-font-weight--300 {
+  font-weight: 300 !important;
+}
+
+.g-font-weight--400 {
+  font-weight: 400 !important;
+}
+
+.g-font-weight--500 {
+  font-weight: 500 !important;
+}
+
+.g-font-weight--600 {
+  font-weight: 600 !important;
+}
+
+.g-font-weight--700 {
+  font-weight: 700 !important;
+}
+
+/*----------------------------------
+  Letter Spacing
+------------------------------------*/
+.g-letter-spacing--1 {
+  letter-spacing: .0625rem;
+}
+
+.g-letter-spacing--2 {
+  letter-spacing: .125rem;
+}
+
+.g-letter-spacing--3 {
+  letter-spacing: .1875rem;
+}
+
+/*----------------------------------
+  Display
+------------------------------------*/
+.g-display-none--xs {
+  display: none;
+}
+
+.g-display-block--xs {
+  display: block;
+}
+
+.g-display-inline--xs {
+  display: inline;
+}
+
+.g-display-inline-block--xs {
+  display: inline-block;
+}
+
+.g-display-inherit--xs {
+  display: inherit;
+}
+
+.g-display-table--xs {
+  display: table;
+}
+/*----------------------------------
   Colors
 ------------------------------------*/
 /* Text Colors */
