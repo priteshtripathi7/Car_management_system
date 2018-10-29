@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 11pt;
+    background-image: url(../admin_table_photos/2017_audi_rs7_5k-5120x2880.jpg);
+    /*image-rendering: pixelated;*/
+    background-size: cover;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+table{
+    border-radius: 20px;
+    width: 80%;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: #a70000;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #e8e8e8;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+#first_row{
+    background-color: #005cb7;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+img {
+    transition: -webkit-transform 0.25s ease;
+}
+
+img:active {
+    -webkit-transform: scale(5);
+}
