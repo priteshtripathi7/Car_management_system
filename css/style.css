@@ -2,6 +2,32 @@ body, html {
     height: 100%;
 }
 
+header{
+    position: fixed;
+    background-color: transparent;
+    padding-top: 2px;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.navbar a{
+    float: right;
+    display: block;
+    text-align: center;
+    color: #9877ea;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+/*parallax-effect*/
 .parallax_loader{
 		
 	background-image: url('../img/loader-1.jpg');
@@ -23,16 +49,79 @@ body, html {
 
 .about_sec{
 	
-	padding: 3%;
-}
-
-header{
-    position: fixed;
-    background-color: transparent;
-    padding-top: 2px;
+	padding: 4em;
 }
 
 #logo{
     height: 3.5em;
     width:auto;
+}
+.car_options{
+    text-align: center;
+}
+
+.slide_car{
+    height: 50%;
+    padding: 2em  5em 5em 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+}
+.car_slide{
+    width: 100%;
+    height: 18em;
+}
+
+.slide{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.slide img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.slide-content{
+  font-size : 1.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  width:100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: rgba(225, 35, 69, 0.4);
+  color: #ffffff;
+  transition: transform 1s ease;
+  -webkit-transition: transform 0.3s ease;
+}
+.slide:hover .slide-content{
+  transform:translate(0, 0);
+  -webkit-transform:translate(0, 0);
+}
+
+/*Directions*/
+.slide-top .slide-content{
+  transform:translate(0, -100%);
+  -webkit-transform:translate(0, -100%);
+}
+.slide-left .slide-content{
+  transform:translate(-100%, 0);
+  -webkit-transform:translate(-100%, 0);
+}
+.slide-right .slide-content{
+  transform:translate(100%, 0);
+  -webkit-transform:translate(100%, 0);
+}
+.slide-bottom .slide-content{
+  transform:translate(0, 100%);
+  -webkit-transform:translate(0, 100%);
 }
