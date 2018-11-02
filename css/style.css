@@ -4,29 +4,46 @@ body, html {
 
 header{
     position: fixed;
-    background-color: transparent;
     padding-top: 2px;
+    width: 100%;
+    display: inline;
+    padding: 1em;
+    background-color: rgba(102, 102, 102,0.3);
+}
+
+.logo-img{
+  display: inline;
 }
 
 .navbar{
     overflow: hidden;
-    position: fixed;
-    top: 0;
+    display: inline;
+    float: right;
 }
 
 .navbar a{
     float: right;
     display: block;
+    padding: 0 2em; 
+    color: black;
     text-align: center;
-    color: #9877ea;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .navbar a:hover{
-    color: black;
+    color: red;
 }
 
+ul{
+  list-style-type: none;
+  
+}
+li{
+  display:inline;
+  padding: 0 2em;
+
+}
 /*parallax-effect*/
 .parallax_loader{
 		
@@ -60,13 +77,7 @@ header{
     text-align: center;
 }
 
-.slide_car{
-    height: 50%;
-    padding: 2em  5em 5em 5em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3em;
-}
+
 .car_slide{
     width: 100%;
     height: 18em;
@@ -124,4 +135,92 @@ header{
 .slide-bottom .slide-content{
   transform:translate(0, 100%);
   -webkit-transform:translate(0, 100%);
+}
+
+@media (min-width: 80.1em)
+{
+  .slide_car{
+    height: 50%;
+    padding: 2em  5em 5em 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+  }
+}
+@media (max-width: 80em)
+{
+  .slide_car{
+    height: 50%;
+    padding: 2em  5em 5em 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+  }
+}
+@media (max-width: 50em)
+{
+  .slide_car{
+    height: 50%;
+    width: 85%;
+    padding: 2em  5em 5em 5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5em;
+  }
+}
+
+.connectivity{
+  padding: 0.4
+}
+
+.connectivity a{
+  text-decoration: none;
+  color: #cecece !important;
+}
+
+.connectivity a:hover{
+  text-decoration: none;
+  color: #13b1cd !important;
+}
+
+.connect{
+  display: inline;
+}
+
+@media(max-width: 32em)
+{
+  footer{
+    padding: 2em;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+  }
+  .connectivity{
+
+  }
+
+}
+
+@media(min-width: 32.1em){
+  footer{
+      padding: 2em;
+      width:100%;
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      align-items: center;
+      justify-items: center;
+    
+    }
+    .connectivity{
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      align-content: center;
+      justify-items: center;
+      justify-content: center;
+
+    }
+
 }

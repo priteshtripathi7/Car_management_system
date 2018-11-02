@@ -18,6 +18,7 @@
 
 	<!-- CSS REFERENCE TO BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" >
 	
 	<!-- EXTERNAL STYLES REFERENCE-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -27,16 +28,19 @@
 </head>
 <body>
 
-	<header>
-		<div class="container-fluid">
+	<header id="header">
+		<div class="logo-img">
 			<img id="logo" src="img/logo-1.png">
 		</div>
-		<!--<div class="navbar">
-			<a href="#about">About</a>
-			<a href="Cars">Cars Available</a>
-			<a href="#">SignUp</a>
-			<a href="#">Login</a>
-		</div>-->
+		<nav class="navbar">
+			<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">LOGIN</a></li>
+			<li><a href="#">SIGNUP</a></li>
+			<li><a href="#">CONTACT US</a></li>
+			</ul>
+		</nav>
 	</header>
 	<!-- PARALLAX LOADER-->
 
@@ -84,35 +88,77 @@
 	<!-- END ABOUT -->
 
 	<!-- SLIDING CAR OPTIONS -->
-	<div class="car_options g-bg-color--something g-font-family--Alegreya" id="Cars">
-		<h3 class="display-3">Choose from the world's Best..</h3>
+	<div class="car_options g-bg-color--something g-font-family--secondary" id="Cars">
+		<h3 class="display-3" style="padding: 0.5em;">Choose from the world's Best..</h3>
 	<div class="slide_car">
 		<div class="slide slide-left">
-			<div class="slide-content">Rent this car at just 1000RS per day.</div>
+			<div class="slide-content">
+				<button type="button" class="s-btn--scooter-bg">RENT NOW</button>
+			</div>
 			<img class="car_slide" src="img/car1.jpeg" alt="Car1">
 		</div>
 		<div class="slide slide-top">
-			<div class="slide-content">Rent this car at just 1000RS per day.</div>
+			<div class="slide-content">
+				<button type="button" class="s-btn--scooter-bg">RENT NOW</button>
+			</div>
 			<img class="car_slide" src="img/car2.jpeg" alt="Car2">
 		</div>
 		<div class="slide slide-right">
-			<div class="slide-content">Rent this car at just 1000RS per day.</div>
+			<div class="slide-content">
+				<button type="button" class="s-btn--scooter-bg">RENT NOW</button>
+			</div>
 			<img class="car_slide" src="img/car3.jpeg" alt="Car3">
 		</div>
 		<div class="slide slide-left">
-			<div class="slide-content">Rent this car at just 1000RS per day.</div>
+			<div class="slide-content">
+				<button type="button" class="s-btn--scooter-bg">RENT NOW</button>
+			</div>
 			<img class="car_slide" src="img/car4.jpeg" alt="Car4">
 		</div>
 		<div class="slide slide-bottom">
-			<div class="slide-content">Rent this car at just 1000RS per day.</div>
+			<div class="slide-content">
+				<button type="button" class="s-btn--scooter-bg">RENT NOW</button>
+			</div>
 			<img class="car_slide" src="img/car5.jpeg" alt="Car5">
 		</div>
 		<div class="slide slide-right">
-			<div class="slide-content">Rent this car at just 1000RS per day.</div>
+			<div class="slide-content">
+				<button type="button" class="s-btn--scooter-bg">RENT NOW</button>
+			</div>
 			<img class="car_slide" src="img/car6.jpeg" alt="Car6">
 		</div>
 	</div>
 	</div>
 	<!-- END SLIDEING CAR OPTIONS-->
+
+	<!-- FOOTER-->
+	<footer class="g-bg-color--dark-light g-color--white-opacity">
+		<div>
+			<img id="logo" src="img/logo-1.png">
+		</div>
+		<div class="connectivity">
+			<div class="connect">
+				<i class="fab fa-facebook-square"></i>
+				<a href="#">FACEBOOK</a>
+			</div>
+			<div class="connect">
+				<i class="fab fa-linkedin"></i>
+				<a href="#">LINKED IN</a>
+			</div>
+			<div class="connect">
+				<i class="fab fa-twitter-square"></i>
+				<a href="#">TWITTER</a>
+			</div>
+			<div class="connect">
+				<i class="fab fa-instagram"></i>
+				<a href="#">INSTAGRAM</a>
+			</div>
+		</div>
+		<div><h6 class="g-color--primary">&copy CAR RENTERS</h6></div>
+	</footer>
+	<!--END OF FOOTER-->
+
+	<!-- LINK TO STYLESHEETS-->
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
