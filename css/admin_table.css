@@ -16,6 +16,7 @@ table{
     top: 20%;
     border-radius: 20px;
     width: 94%;
+    margin-top: 120px;
 }
 th,td{
     padding: 10px;
@@ -45,6 +46,10 @@ img {
 
 img:active {
     -webkit-transform: scale(5);
+}
+
+header{
+    top: 0;
 }
 
 footer{
