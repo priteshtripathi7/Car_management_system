@@ -1,0 +1,79 @@
+.box{
+	top: 20px;
+	padding-top: 5rem;
+	font-family: Montserrat, sans-serif !important;
+}
+
+.heading{
+	text-align: center;
+	font-size: 3.5em;
+}
+
+input{
+	
+	background-color: transparent;
+	border: none; 
+	border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.5);;
+	padding: 0 1.25rem 0 0;
+	height: 2em;
+	width: 60%;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+
+input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+input:focus {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.99);
+  box-shadow: none;
+  outline: none;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input:focus::-moz-placeholder {
+  color: #fff;
+}
+
+input:focus:-ms-input-placeholder {
+  color: #fff;
+}
+
+input:focus::placeholder {
+  color: #fff;
+}
+
+label{
+	padding-left:60%;
+	color: #fff;
+}
+
+input:focus{
+	outline: none;
+}
+
+.line-form{
+	padding: 1em 2em;
+	display: grid;
+	grid-template-columns: 3fr 5fr;
+
+}
