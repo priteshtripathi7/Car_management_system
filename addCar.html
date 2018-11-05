@@ -50,59 +50,87 @@
 		ADD CAR
 	</h1>
 	<div class="car-details">
-		<form>
+		<form action="index.html" onsubmit="return validateCar()" method="POST">
+
+			<!-- CAR MODEL NAME -->
 			<div class="line-form">
 				<div>
-				<label for="carName">Car model </label>
+					<label for="carName">Car model name</label>
 				</div>
 				<div>
-				<input type="text" name="carName" placeholder="Enter car model" required>
+					<input type="text" name="carName" id="carName" placeholder="Enter car model" required>
 				</div>
 			</div>
+
+			<!-- CAR NUMBER -->
 			<div class="line-form">
 				<div>
-				<label for="carNumber">Car Number</label>
+					<label for="carNumber">Car Number</label>
 				</div>
 				<div>
-				<input type="text" name="carNumber" placeholder="Enter car number" title="Should be actual eg GA06B5109" required>
+					<input type="text" name="carNumber" id="carNumber" placeholder="Enter car number" title="Should be actual eg GA06B5109" required>
 				</div>
 			</div>
+
+			<!-- CAR AGE -->
 			<div class="line-form">
 				<div>
-				<label for="years">How old is this car</label>
+					<label for="years">How old is this car</label>
 				</div>
 				<div>
-				<input type="number" name="years" max="10" step="1" placeholder="Enter or choose" required>
+					<input type="number" name="years" min="0" max="10" step="1" placeholder="Enter or choose" required>
 				</div>
 			</div>
+
+			<!-- DATE OF CAR DEAL -->
 			<div class="line-form">
 				<div>
-				<label for="dateAvailable">Date of pick up</label>
+					<label for="dateAvailable">Date of pick up</label>
 				</div>
 				<div>
-				<input type="date" name="dateAvailable" placeholder="Enter date here" required>
+					<input type="date" name="dateAvailable" min="10-11-2018" id="dateAvailable" placeholder="Enter date here" required>
 				</div>
 			</div>
+
+			<!-- END OF CAR DEAL -->
 			<div class="line-form">
 				<div>
-				<label for="tillDate">Till Date</label>
+					<label for="tillDate">Till Date</label>
 				</div>
 				<div>
-				<input type="date" name="tillDate" placeholder="Enter Till date here" required>
+					<input type="date" name="tillDate" min="10-11-2018" id="tillDate" placeholder="Enter Till date here" required>
 				</div>
 			</div>
+
+			<!-- AMOUNT -->
 			<div class="line-form">
 				<div>
-				<label for="price">Rent Price for 4 hrs</label>
+					<label for="price">Rent Price for 4 hrs</label>
 				</div>
 				<div>
-				<input type="number" name="price" min="500" max="5000" step="100" placeholder="How much rent do you want" required>
+					<input type="number" name="price" min="500" max="3000" step="100" placeholder="How much rent do you want" required>
 				</div>
 			</div>
-				<input type="checkbox" name="agree" value="agreement">By clicking this you agree to our terms and condition <br>
+
+			<!-- CAR IMAGE -->
+			<div class="line-form">
 				<div>
-					<input type="submit" name="submit" value="SUBMIT">
+					<label for="upload">Upload an image of car</label>
 				</div>
+				<div>
+					<input type="file" class="upload" name="pic" accept=".jpg,.png|image/*" required>
+				</div>
+			</div>
+
+			<!-- I AGREE -->
+			<div class="agree">
+				<input type="checkbox" name="agree" value="agreement" id="agree-tick" required>"I AGREE" By clicking this you agree to our terms and condition<br>
+			</div>
+
+			<!-- SUBMIT BUTTON -->
+			<div style="padding-top: 1rem" class="submit-btn">
+				<input type="submit" class="btn g-color--dark g-bg-color--white" value="SUBMIT">
+			</div>
 			
 		</form>
 	</div>
@@ -135,5 +163,8 @@
 	</footer>
 	<!--END OF FOOTER-->
 
+
+	<!-- SCRIPT REFERENCES -->
+	<script type="text/javascript" src="js/addCar.js"></script>
 </body>
 </html>

@@ -77,3 +77,33 @@ input:focus{
 	grid-template-columns: 3fr 5fr;
 
 }
+
+.btn{
+	padding-top: .3rem;
+	text-align: center;
+	height: 3rem;
+	width: 10rem;
+	border: white 2px solid;
+	border-radius: 25px;
+}
+
+.btn:hover{
+	color: #13b1cd !important;
+}
+
+.submit-btn{
+	text-align: center;
+	padding: 1rem;
+}
+
+.agree{
+	display: block;
+	text-align: center;
+}
+
+#agree-tick{
+	width:1%;
+}
+.upload{
+	border: none;
+}
