@@ -1,0 +1,60 @@
+.logo-img{
+	width: 10rem;
+	height: auto; 
+}
+
+.logo{
+	display: inline;
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+.toggler{
+	float: right;
+	display:inline;
+	padding-right: 2em;
+	padding-top: 1em;
+}
+
+.hidden-grid{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.hidden-none{
+	background-color: rgba(34, 35, 36, 0.8);
+	display: none;
+}
+
+.hiddenToggle{
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.8);
+	border-radius: 50%;
+	float: right;
+}
+
+.toggle{
+	background-color: transparent;
+	border: none;
+	box-shadow: none; 
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+	padding-right: 2em;
+}
+li{
+	text-align: right;
+	display: block;
+	line-height: 2em;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+
+.whiteincolor{
+	padding: .2175em;
+	color: rgba(255, 255, 255, 0.8) !important;
+}
