@@ -1,0 +1,424 @@
+*{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    color: #000;
+    background-color: #fff;
+}
+body{
+    color: #231f20;
+    font-family: Ubuntu, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img{
+    border: 0;
+}
+
+.image-vehicle{
+    width: 100%;
+
+}
+
+.container{
+    width: 940px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container::before{
+    display: table;
+    content: "";
+}
+
+.container::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.layout-single-column{
+    width: 620px;
+    float: left;
+}
+
+.vehicleDetails{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.col{
+    flex: 1 1 auto;
+    box-sizing: border-box;
+}
+
+.row-main{
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    margin-top: 40px;
+}
+
+.row-main>.col{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col--lg3{
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.col--lg9{
+    flex-basis: 75%;
+    max-width: 75%;
+}
+
+.side-headers{
+    text-align: right;
+}
+
+.vehicleDetails-label{
+    color: #5d5d5d;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0;
+}
+h1{
+    font-size: 92px;
+    font-weight: normal;
+}
+
+h2{
+    line-height: 2;
+}
+
+.vehicleLabel{
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.vehicleLabel-header{
+    line-height: inherit;
+    margin-bottom: 0;
+    margin-top: -69px;
+}
+
+.vehicleLabel-owner{
+    font-family: Ubuntu,Avenir,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 16px;
+    margin-left: 2px;
+}
+
+.vehicleLabel .vehicleLabel-makeModelYearContainer{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.vehicleLabel-makeModelYearContainer{
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.vehicleLabel .vehicleLabel-makeModel, .vehicleLabel .vehicleLabel-makeModelContainer, .vehicleLabel .vehicleLabel-makeYear {
+    display: inline;
+}
+
+.vehicleLabel-makeModel{
+    text-transform: uppercase;
+    margin-right: 8px;
+    flex: 0 1 auto;
+    min-width: 0;
+}
+
+.vehicleLabel-makeModel, .vehicleLabel-makeYear {
+    font-family: 'Libre Baskerville',AmericanTypewriter-Condensed,Times New Roman,serif;
+    font-weight: 400;
+}
+
+.vehicleLabel-makeYear {
+    font-size: 24px;
+}
+
+.vehicleDetails-basicBadges{
+    margin: 15px 0;
+}
+
+.vehicleDetails-labeledIcon{
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.col--6{
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.labelledBadge{
+    margin-bottom: 10px;
+}
+
+.media{
+    align-items: flex-start;
+    display: flex;
+}
+
+.vehicleDetails-economy {
+    background-image: url(https://d14dfvzhctepg0.cloudfront.net/client/v1/builds/assets/23478839f64e25a37327503847d4763c.png);
+    background-position: -30px -30px;
+    background-size: 151px 150px;
+}
+
+.vehicleDetails-fuel {
+    background-image: url(https://d14dfvzhctepg0.cloudfront.net/client/v1/builds/assets/23478839f64e25a37327503847d4763c.png);
+    background-position: 0 -30px;
+    background-size: 151px 150px;
+}
+
+.vehicleDetails-doors {
+    background-image: url(https://d14dfvzhctepg0.cloudfront.net/client/v1/builds/assets/23478839f64e25a37327503847d4763c.png);
+    background-position: 0 -90px;
+    background-size: 151px 150px;
+}
+
+.vehicleDetails-seats {
+    background-image: url(https://d14dfvzhctepg0.cloudfront.net/client/v1/builds/assets/23478839f64e25a37327503847d4763c.png);
+    background-position: 0 -120px;
+    background-size: 151px 150px;
+}
+
+.vehicleDetails-icon {
+    height: 30px;
+    margin-left: 0;
+    margin-right: 10px;
+    width: 30px;
+    border: 3px;
+}
+
+.labeledBadge-icon, .labeledBadge-label {
+    display: inline-block;
+}
+
+.media-item{
+    flex: 0 0 auto;
+}
+
+.labeledBadge-icon{
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.media-body{
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+.vehicleDetails-col{
+    text-align: right;
+}
+
+.vehicleDetails-description{
+    margin-bottom: 40px;
+    margin-top: -5px;
+    overflow: hidden;
+
+}
+
+/* ---------------SIDEBAR------------*/
+.sidebar {
+    float: right;
+    width: 300px;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.reservationBox {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.reservationBoxVehiclePrice {
+    align-items: center;
+    background-color: #fff;
+    color: #231f20;
+    display: flex;
+    float: right;
+    font-weight: 400;
+    justify-content: center;
+    margin-bottom: -10px;
+    /*margin-right: -10px;
+    padding: 10px 10px 5px;*/
+    position: relative;
+    top: -52px;
+
+    border-radius: 30px 30px 0 0;
+    margin-right: 0;
+    padding: 30px 0 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.styledCurrency{
+    display: flex;
+}
+
+.styledCurrency-currency {
+    font-family: 'Libre Baskerville',AmericanTypewriter-Condensed,Times New Roman,serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: .8;
+    margin: 15px 0 0 5px;
+}
+
+.styledCurrency-value--large {
+    font-size: 62px;
+}
+
+.styledCurrency-value {
+    font-family: Freight,HoeflerText-Black,Times New Roman,serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 0 5px;
+}
+
+.reservationBoxVehiclePrice-unit {
+    font-family: Ubuntu,Avenir,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 1px;
+    text-align: right;
+}
+
+.dateTimeRangePicker {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dateTimeRangePicker-fieldGroupWrapper {
+    display: block;
+    width: 100%;
+}
+
+.dateTimeRangePicker-label {
+    color: #231f20;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: none;
+    color: #231f20;
+}
+
+label {
+    cursor: default;
+}
+
+.dateTimeRangePicker-dateTime {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.dateTimeRangePicker-dateTime > :first-child {
+    flex: 1 0 57%;
+}
+
+.dateTimeRangePicker-dateTime .DateInput {
+    border-right: none;
+}
+
+.DateInput {
+    -webkit-appearance: none;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 0;
+    color: #231f20;
+    display: inline-flex;
+    font-size: 13px;
+    height: 35px;
+    padding: 3px 10px;
+    position: relative;
+    width: 100%;
+}
+
+.selectField--fluid {
+    width: 100%;
+}
+
+.selectField {
+    border: 1px solid #c7c7c7;
+    color: #231f20;
+    display: inline-block;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 29px;
+    position: relative;
+    vertical-align: top;
+}
+
+.selectField-select {
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+select{
+    height: 35px;
+    font-size: 13px;
+    color: #231f20;
+    width: 100%;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+select {
+	line-height: normal !important;
+	white-space: nowrap !important;
+	word-wrap: normal !important;
+	text-align: start;
+	box-sizing: border-box;
+	border-width: 2px;
+	border-style: inset;
+	text-indent: 0;
+	text-shadow: none;
+	display: inline-block;
+	page-break-inside: avoid;
+}
