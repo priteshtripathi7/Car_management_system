@@ -9,11 +9,16 @@
 	font-size: 3.5em;
 }
 
+.label-all{
+	padding-left: 50%;
+	color: #fff;
+}
+
 input{
 	
 	background-color: transparent;
 	border: none; 
-	border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.5);;
+	border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.5);
 	padding: 0 1.25rem 0 0;
 	height: 2em;
 	width: 60%;
@@ -60,11 +65,6 @@ input:focus:-ms-input-placeholder {
 
 input:focus::placeholder {
   color: #fff;
-}
-
-label{
-	padding-left:60%;
-	color: #fff;
 }
 
 input:focus{
