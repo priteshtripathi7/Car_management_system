@@ -1,6 +1,6 @@
 .main-container{
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	padding-top: 5%;
 	text-align: center;
 }
@@ -8,14 +8,14 @@
 .single-line{
 	display: grid;
 	grid-auto-columns: 1fr;
-	padding: .3rem 30%;
+	padding: .3rem 25% 0;
 }
 
 input{ 
   position: relative;
-  height: 3.125rem;
-  font-size: 0.8125rem;
-  font-weight: 400;
+  height: 3.625rem;
+  font-size: 1.1125rem;
+  font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   border: none;
   border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.5);
@@ -82,7 +82,7 @@ input:focus::placeholder {
 	color: #13b1cd !important;
 }
 /*============HEADER==================*/
-header{
+/*header{
     position: fixed;
     padding-top: 2px;
     width: 100%;
@@ -123,7 +123,7 @@ li{
   display:inline;
   padding: 0 2em;
 
-}
+}*/
 
 
 /*==================FOOTER===================*/
@@ -144,46 +144,48 @@ li{
 .connect{
   display: inline;
 }
-
-@media(max-width: 32em)
+@media(max-width: 54em)
 {
-  footer{
-    padding: 1em;
+  .foot{
+    padding: 2em;
     width:100%;
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
-    justify-items: center;
+    justify-content: center;
   }
   .connectivity{
-      
+    display: inline;
   }
-
+  .connect{
+    display: inline;
+  }
+  .padd__needed{
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media(min-width: 32.1em){
-  footer{
-      padding: 1em;
+@media(min-width: 54.1em){
+  .foot{
+      padding: 2em;
       width:100%;
       display: grid;
       grid-template-columns: 1fr 3fr 1fr;
       align-items: center;
-      justify-items: center;
+      justify-content: center;
     
     }
     .connectivity{
-      padding: 0;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      align-content: center;
-      justify-items: center;
-      justify-content: center;
-
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     align-items: center;
+     justify-content: center;
     }
-
 }
 
 #logo{
-    height: 3.5em;
+    height: 1.2em;
     width:auto;
 }

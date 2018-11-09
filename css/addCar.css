@@ -107,3 +107,7 @@ input:focus{
 .upload{
 	border: none;
 }
+
+#logo{
+	height: 1.2em;
+}
