@@ -334,6 +334,10 @@ li{
     margin-left: auto;
     margin-right: auto;
   }
+  .copyright a{
+    text-align: right;
+    font-size: 1.8em;
+  }
 }
 
 @media(min-width: 54.1em){
@@ -344,7 +348,6 @@ li{
       grid-template-columns: 1fr 3fr 1fr;
       align-items: center;
       justify-content: center;
-    
     }
     .connectivity{
      display: grid;
