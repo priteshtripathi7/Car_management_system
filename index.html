@@ -23,41 +23,56 @@
 	<!-- EXTERNAL STYLES REFERENCE-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<!--link rel="stylesheet" type="text/css" href="css/headerss.css"-->
 	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
 
 </head>
 <body>
 	
 	<!-- STICKY HEADER -->
-	<header id="header">
-		<div class="logo-img">
-			<img id="logo" src="img/logo-1.png">
-		</div>
-		<nav class="navbar">
-			<ul>
-			<li><a href="#home">HOME</a></li>
-			<li><a href="#about">ABOUT US</a></li>
-			<li><a href="#">LOGIN</a></li>
-			<li><a href="signUpForm.html" target="_blank">SIGNUP</a></li>
-			<li><a href="#">CONTACT US</a></li>
-			</ul>
-		</nav>
-	</header>
+
+	<div class="header">
+		<div class="Navbar">
+	    	<div class="logo-img-new">
+				<img id="logo-new" src="img/logo-1.png">
+			</div>
+	    <div class="Navbar__Link Navbar__Link-toggle">
+	      	<i class="fas fa-bars fa-2x"></i>
+	    </div>
+		  	<nav class="Navbar__Items">
+		    	<div class="Navbar__Link">
+		      		<a href="index.html">HOME</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="index.html">ABOUT US</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="#">LOGIN</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="signUpForm.html">SIGNUP</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="#">CONTACT US</a>
+		    	</div>
+		  	</nav>
+	  	</div>
+  	</div>
 
 	<!-- END OF STICKY HEADER -->
 
 	<!-- PARALLAX LOADER-->
 
-	<div class="parallax_loader" id="home">
-		<div class="container-fluid ">
+	<div class="parallax_loader " id="home">
+		<div class="container-fluid bg-overlay">
 			<div class="row name_comp">
 				<div class="col-md-2 "></div>
-				<div class="col-md-8"><h1 class="display-1 g-font-weight--500"><b>Car Renters</b></h1></div>
+				<div class="col-md-8"><h1 class="display-1 g-font-weight--500 g-color--primary"><b>Car Renters</b></h1></div>
 				<div class="col-md-2"></div>
 			</div>
 			<div class="row name_comp">
 				<div class="col-xs-12">
-					<h3 class="display-4 ">World's most famous car rental company with over 1 MILLION+ trusted users.</h3>
+					<h3 class="display-4 g-color--white">World's most famous car rental company with over 1 MILLION+ trusted users.</h3>
 				</div>
 			</div>
 		</div>

@@ -1,7 +1,73 @@
 body, html {
     height: 100%;
+    width: 100%;
 }
 
+
+a{
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff !important;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: #13b1cd !important;
+}
+
+.logo-img-new{
+  display: inline;
+}
+
+#logo-new{
+    height: 3em;
+    width:auto;
+}
+
+.Navbar {
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(102,102,102,0.5);
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+  padding-top: 1em;
+  font-size: 1em;
+}
+
+.Navbar__Items {
+  display: flex;
+  text-align: center;
+}
+
+.Navbar__Items, .Navbar {
+   flex-direction: column;
+}
+
+.Navbar__Items {
+    display:none;
+    color: black;
+    
+
+}
+.Navbar__ToggleShow {
+    display: flex;
+}
+
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
+/*
 header{
     position: fixed;
     padding-top: 2px;
@@ -43,7 +109,7 @@ li{
   display:inline;
   padding: 0 2em;
 
-}
+}*/
 /*parallax-effect*/
 .parallax_loader{
 		
@@ -53,6 +119,18 @@ li{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+.bg-overlay{
+  width: 100%;
+  height: 100%;
+  display: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgb(0,0,0,0.3);
 }
 
 .para_content{
@@ -85,6 +163,7 @@ li{
 
 .slide{
   position: relative;
+  z-index: 1;
   display: inline-block;
   overflow: hidden;
 }

@@ -19,8 +19,8 @@ a:hover {
 }
 
 .Navbar {
-  width: 100%;
   position: fixed;
+  width: 96vw;
   background-color: rgba(102, 102, 102,0.3);
   display: flex;
   padding: 16px;

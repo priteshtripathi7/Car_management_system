@@ -29,22 +29,37 @@
 <body>
 
 	<!-- STICKY HEADER -->
-	<header id="header">
-		<div class="logo-img">
-			<img id="logo" src="img/logo-1.png">
-		</div>
-		<nav class="navbar">
-			<ul>
-			<li><a href="../Car_management_system/index.html">HOME</a></li>
-			<li><a href="#about">ABOUT US</a></li>
-			<li><a href="../Car_management_system/User Login/index.html">LOGIN</a></li>
-			<li><a href="signUpForm.html" target="_blank">SIGNUP</a></li>
-			<li><a href="#">CONTACT US</a></li>
-			</ul>
-		</nav>
-	</header>
+	<div class="header">
+		<div class="Navbar">
+	    	<div class="logo-img-new">
+				<img id="logo-new" src="img/logo-1.png">
+			</div>
+	    <div class="Navbar__Link Navbar__Link-toggle">
+	      	<i class="fas fa-bars fa-2x"></i>
+	    </div>
+		  	<nav class="Navbar__Items">
+		    	<div class="Navbar__Link">
+		      		<a href="index.html">HOME</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="index.html">ABOUT US</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="#">LOGIN</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="signUpForm.html">SIGNUP</a>
+		    	</div>
+		    	<div class="Navbar__Link">
+		      		<a href="#">CONTACT US</a>
+		    	</div>
+		  	</nav>
+	  	</div>
+  	</div>
 
 	<!-- END OF STICKY HEADER -->
+
+
 	<div class="g-bg-color--gold box">
 	<h1 class="heading g-font-weight--500">
 		ADD CAR
@@ -166,5 +181,6 @@
 
 	<!-- SCRIPT REFERENCES -->
 	<script type="text/javascript" src="js/addCar.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
