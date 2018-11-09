@@ -20,7 +20,7 @@ a:hover {
   }
 
   #logo-new{
-      height: 3em;
+      height: 2.2em;
       width:auto;
   }
 
@@ -84,7 +84,7 @@ a:hover {
   }
 
   #logo-new{
-      height: 3em;
+      height: 2.2em;
       width: auto;
   }
 
@@ -104,8 +104,12 @@ a:hover {
     float: right;
   }
 }
-.sticky{
-  background-color: rgba(255,255,255,1);
+.active{
+  background-color: #cecece !important;
+  color: black !important;
+}
+.active a{
+  color: black !important;
 }
 /*
 header{

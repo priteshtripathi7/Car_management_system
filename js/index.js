@@ -1,14 +1,12 @@
-window.onscroll = function() {myFunction()};
-var header = document.getElementById("Nav");
-var sticky = header.backgroundColor;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".Navbar").addClass("active");
+        } else {
+           $(".Navbar").removeClass("active");
+        }
+    });
+});
 
 function classToggle() {
   const navs = document.querySelectorAll('.Navbar__Items');
