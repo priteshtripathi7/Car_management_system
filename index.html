@@ -25,6 +25,7 @@
 	<link rel="stylesheet" type="text/css" href="css/global.css">
 	<!--link rel="stylesheet" type="text/css" href="css/headerss.css"-->
 	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 
 </head>
@@ -39,9 +40,9 @@
 			</div>
 			<div></div>
 		    <div class="Navbar__Link Navbar__Link-toggle">
-		      	<i class="fas fa-bars fa-2x"></i>
+		      	<i class="fas fa-bars fa-2x" id="toggler"></i>
 		    </div>
-		    <div class="Navbar__Items">
+		    <div class="Navbar__Items" id="nav__toggler">
 			    	<div class="Navbar__Link">
 			      		<a href="index.html">HOME</a>
 			    	</div>
@@ -178,7 +179,7 @@
 				</div>
 			</div>
 			<div class="padd__needed">
-				<h6 class="g-color--primary">&copy CAR RENTERS</h6>
+				<h5 class="g-color--primary">&copy CAR RENTERS</h5>
 			</div>
 		</div>
 	</footer>
@@ -186,5 +187,6 @@
 
 	<!-- LINK TO STYLESHEETS-->
 	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/toggler.js"></script>
 </body>
 </html>

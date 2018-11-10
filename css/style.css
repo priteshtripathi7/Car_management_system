@@ -28,7 +28,7 @@ a:hover {
     width: 100%;
     z-index: 1;
     position: fixed;
-    background-color: rgba(102,102,102,0.5);
+    background-color: rgba(102,102,102,0);
     display: flex;
     padding: 16px;
     font-family: sans-serif;
@@ -42,7 +42,6 @@ a:hover {
   }
 
   .Navbar__Items {
-    display: flex;
     text-align: center;
   }
 
@@ -74,7 +73,7 @@ a:hover {
     padding: 16px;
     width: 100%;
     position: fixed;
-    background-color: rgba(102,102,102,0.5);
+    background-color: rgba(102,102,102,0);
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
   }
@@ -333,10 +332,6 @@ li{
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
-  }
-  .copyright a{
-    text-align: right;
-    font-size: 1.8em;
   }
 }
 
