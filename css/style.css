@@ -1,17 +1,24 @@
 body, html {
     height: 100%;
     width: 100%;
+
 }
-a{
+.a-header,.a-footer{
   text-decoration: none;
   font-size: 1.3em;
   color: #fff !important;
 
 }
 
-a:hover {
+.a-header:hover {
   text-decoration: none;
   color: #13b1cd !important;
+}
+
+.Navbar{
+  width: 96%;
+  font-size: 11.5pt;
+  font-family: Playfair;
 }
 @media(max-width: 54em)
 {
@@ -38,7 +45,6 @@ a:hover {
   .Navbar__Link {
     padding-right: 8px;
     padding-top: 1em;
-    font-size: 1em;
   }
 
   .Navbar__Items {
@@ -107,7 +113,7 @@ a:hover {
   background-color: #cecece !important;
   color: black !important;
 }
-.active a{
+.active .a-header{
   color: black !important;
 }
 /*
@@ -298,18 +304,22 @@ li{
   padding: 0.4
 }
 
-.connectivity a{
+.connectivity .a-footer{
   text-decoration: none;
   color: #cecece !important;
 }
 
-.connectivity a:hover{
+.connectivity .a-footer:hover{
   text-decoration: none;
   color: #13b1cd !important;
 }
 
 .connect{
   display: inline;
+}
+
+.foot{
+  font-family: Playfair;
 }
 
 @media(max-width: 54em)
