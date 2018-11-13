@@ -5,8 +5,51 @@
     <title>ADMIN LOGIN</title>
     <link rel="stylesheet" type="text/css" href="./main.css">
     <link rel="stylesheet" type="text/css" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+
+    <!-- Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+
+     <!-- FONT AWESOME CSS REFERENCE-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+     <script type="text/javascript" src="../js/jquery.min.js"></script>
 </head>
 <body>
+    
+    <!-- STICKY HEADER -->
+    <div class="header">
+        <div class="Navbar" id="Nav">
+            <div class="logo-img-new">
+                <img id="logo-new" src="../img/logo-3.png">
+            </div>
+            <div></div>
+            <div class="Navbar__Link Navbar__Link-toggle">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+            <div class="Navbar__Items">
+                    <div class="Navbar__Link">
+                        <a class="a-header" href="../index.html">HOME</a>
+                    </div>
+                    <div class="Navbar__Link">
+                        <a class="a-header" href="../Admin Login/index.html">ADMIN LOGIN</a>
+                    </div>
+                    <div class="Navbar__Link">
+                        <a class="a-header" href="../User Login/index.html">USER LOGIN</a>
+                    </div>
+                    <div class="Navbar__Link">
+                        <a class="a-header" href="../signUpForm.html">SIGNUP</a>
+                    </div>
+                    <div class="Navbar__Link">
+                        <a class="a-header" href="../Contact Us/contact_us.html">CONTACT US</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF STICKY HEADER -->
+        
     <div class="limiter">
         <div class="container-login">
             <div class="wrap-login">
@@ -41,6 +84,37 @@
                 </div>
             </div>
         </div>
-        <script src="../js/admin_login.js"></script>
+
+    <!-- FOOTER-->
+    <footer class="g-bg-color--dark-light g-color--white-opacity">
+        <div class="foot">
+            <div class="padd__needed">
+                <img id="logo" src="../img/logo-3.png">
+            </div>
+            <div class="connectivity padd__needed">
+                <div class="connect">
+                    <i class="fab fa-facebook-square"></i>
+                    <a class="a-footer" href="#">FACEBOOK</a>
+                </div>
+                <div class="connect">
+                    <i class="fab fa-linkedin"></i>
+                    <a class="a-footer" href="#">LINKED IN</a>
+                </div>
+                <div class="connect">
+                    <i class="fab fa-twitter-square"></i>
+                    <a class="a-footer" href="#">TWITTER</a>
+                </div>
+                <div class="connect">
+                    <i class="fab fa-instagram"></i>
+                    <a class="a-footer" href="#">INSTAGRAM</a>
+                </div>
+            </div>
+            <div class="padd__needed">
+                <h6 class="g-color--primary">&copy CAR RENTERS</h6>
+            </div>
+        </div>
+    </footer>
+    <!--END OF FOOTER-->
+    <script src="../js/admin_login.js"></script>
 </body>
 </html>
