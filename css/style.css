@@ -14,6 +14,8 @@ a hover {
   color: #13b1cd !important;
 }
 /*
+=======
+
 .a-header,.a-footer{
   text-decoration: none;
   font-size: 1.3em;
@@ -25,6 +27,12 @@ a hover {
   text-decoration: none;
   color: #13b1cd !important;
 }*/
+
+.Navbar{
+  width: 96%;
+  font-size: 11.5pt;
+  font-family: Playfair;
+}
 
 .Navbar{
   width: 96%;
@@ -315,12 +323,12 @@ li{
   padding: 0.4
 }
 
-.connectivity .a-footer{
+.connectivity {
   text-decoration: none;
   color: #cecece !important;
 }
 
-.connectivity .a-footer:hover{
+.connectivity :hover{
   text-decoration: none;
   color: #13b1cd !important;
 }
