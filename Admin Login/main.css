@@ -172,6 +172,7 @@ body, html {
 
 .wrap-login {
     width: 960px;
+    margin-top: 45px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -183,7 +184,7 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 177px 130px 33px 95px;
+    padding: 135px 130px 33px 95px;
 }
 
 input {

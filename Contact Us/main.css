@@ -184,7 +184,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
     background: #d867c6;
     background: -webkit-linear-gradient(45deg, #c77ff2, #e8519e);
    /* background: -o-linear-gradient(45deg, #c77ff2, #e8519e);
@@ -194,9 +194,10 @@ a:hover {
 
 .wrap-contact{
     width: 790px;
+    margin-top: 50px;
     background: #fff;
     border-radius: 4px;
-    padding: 55px 95px 68px 95px;
+    padding: 25px 95px 50px 95px;
 }
 
 /*------------------------------------*/

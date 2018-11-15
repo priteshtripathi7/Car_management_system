@@ -172,6 +172,7 @@ body, html {
 
 .wrap-login {
     width: 960px;
+    margin-top: 50px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -183,7 +184,7 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 177px 130px 33px 95px;
+    padding: 100px 130px 29px 95px;
 }
 
 input {
@@ -299,17 +300,22 @@ button:hover {
 	cursor: pointer;
 }
 
-.txt-2 {
+.txt2 {
+    text-decoration: none;
 	font-family: Poppins-Regular;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
 }
 
-.txt-2:hover {
+.txt2:hover {
 	text-decoration: none;
     color: #57b846;
+}
+
+.text-center{
+    text-align: center;
 }
 
 #logo{
