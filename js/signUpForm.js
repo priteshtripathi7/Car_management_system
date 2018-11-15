@@ -72,7 +72,7 @@ function formValidate(e)
 		password.focus();
 		return false;
 	}
-		
+	
 	alert("Welcome "+ username.value +" you have been added as a new user.");
    	return true;
    	
