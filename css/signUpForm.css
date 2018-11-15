@@ -1,7 +1,7 @@
 .main-container{
 	width: 100%;
 	height: 80%;
-	padding-top: 5%;
+	padding-top:7%;
 	text-align: center;
 }
 
@@ -14,7 +14,7 @@
 input{ 
   position: relative;
   height: 3.625rem;
-  font-size: 1.1125rem;
+  font-size: 1.1215rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   border: none;

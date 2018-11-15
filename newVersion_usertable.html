@@ -28,8 +28,7 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 
 </head>
-<body class="g-bg-color--juicy-peach">
-
+<body>
     <!-- STICKY HEADER -->
     <div class="header">
         <div class="Navbar" id="Nav">
@@ -61,8 +60,77 @@
         </div>
     </div>
     <!-- END OF STICKY HEADER -->
+    
+    <!-- TWO BOXES -->
+    <div class="two_box blue-lagoon"> 
+        <div class="small_box">
+            <a href="#cars_available">
+            <img class="car_image" src="img/book_car1.jpg">
+            <div>
+                <button type="button"  class="button_add g-color--white">BOOK CAR</button>
+            </div>
+            </a>
+        </div>
+        <div class="small_box">
+            <a href="addCar.html">
+            <img class="car_image" src="img/rent_car2.jpg">
+            <div>
+                <button type="button" class="button_add g-color--white">ADD CAR</button>
+            </div>
+            </a>
+        </div>
+    </div>
+    <!--END TWO BOXES -->
+    <!-- CARS AVAILABLE -->
+    <div class="g-bg-color--dusty-grass">
     <div>
-        <h1 class="heading g-color--dark g-font-family--primary">CARS AVAILABLE</h1>
+        <h1 class="heading g-color--dark g-font-family--primary" id="cars_available">CARS AVAILABLE</h1>
+    </div>
+    <table align="center" class="g-font-family--primary">
+        <tr>
+            <th>CAR NAME</th>
+            <th>CAR PHOTO</th>
+            <th>CAR ID</th>
+            <th>AVAILABLE FROM</th>
+            <th>AVAILABLE UPTO</th>
+        </tr>
+        <tr>
+            <td class="Data"><a href="Book Car/book.html" style="text-decoration: none; color: black;">Maruti Dzire</a></td>
+            <td><img src="../Car_management_system/admin_table_photos/2529780635_856c78ce2a_o.jpg" alt="Maruti Dzire"></td>
+            <td class="Data">#L10FF</td>
+            <td class="Data">16-11-2018</td>
+            <td class="Data">23-11-2018</td>
+        </tr>
+            <td class="Data"><a href="Book Car/book2.html" style="text-decoration: none; color: black;">Maruti WagonR</a></td>
+            <td><img src="../Car_management_system/admin_table_photos/Maruti WagonR.jpg" alt="Maruti WagonR"></td>
+            <td class="Data">#B23GG</td>
+            <td class="Data">13-12-2018</td>
+            <td class="Data">28-12-2018</td>
+        </tr>
+        <tr>
+            <td class="Data"><a href="Book Car/book3.html" style="text-decoration: none; color: black;">Maruti Ciaz</a></td>
+            <td><img src="../Car_management_system/admin_table_photos/Maruti Ciaz.jpg" alt="Maruti Ciaz"></td>
+            <td class="Data">#R87PQ</td>
+            <td class="Data">21-12-2018</td>
+            <td class="Data">27-12-2018</td>
+        </tr>
+        <tr>
+            <td class="Data"><a href="Book Car/book4.html" style="text-decoration: none; color: black;">Honda City</a></td>
+            <td><img src="../Car_management_system/admin_table_photos/Honda_City_(sixth_generation)_front.JPG" alt="Honda City"></td>
+            <td class="Data">#L12MN</td>
+            <td class="Data">01-01-2019</td>
+            <td class="Data">02-01-2019</td>
+        </tr>
+    </table>
+    <br><br>
+    </div>
+    <!--END CARS AVAILABLE -->
+
+    <!-- HISTORY -->
+
+    <div class="g-bg-color--party-bliss">
+    <div>
+        <h1 class="heading g-color--dark g-font-family--primary" id="cars_available">YOUR PREVIOUS BOOKINGS</h1>
     </div>
     <table align="center" class="g-font-family--primary">
         <tr>
@@ -70,37 +138,41 @@
             <th>CAR PHOTO</th>
             <th>CAR ID</th>
             <th>ISSUED FROM</th>
-            <th>ISSUED TO</th>
+            <th>ISSUED UPTO</th>
         </tr>
         <tr>
-            <td class="Data">Maruti Dzire</td>
-            <td><img src="../Car_management_system/admin_table_photos/2529780635_856c78ce2a_o.jpg" alt="Maruti Dzire"></td>
-            <td class="Data">#L10FF</td>
-            <td class="Data">23-10-2015</td>
-            <td class="Data">23-11-2015</td>
+            <td class="Data">Hyundai Elite</td>
+            <td><img src="../Car_management_system/admin_table_photos/hyundai_elite_i20.jpg" alt="Maruti Dzire"></td>
+            <td class="Data">#M12OO</td>
+            <td class="Data">12-10-2018</td>
+            <td class="Data">13-11-2018</td>
         </tr>
-            <td class="Data">Maruti WagonR</td>
-            <td><img src="../Car_management_system/admin_table_photos/Maruti WagonR.jpg" alt="Maruti WagonR"></td>
-            <td class="Data">#L10FF</td>
-            <td class="Data">23-10-2015</td>
-            <td class="Data">23-11-2015</td>
+            <td class="Data">Ford Ecosport</td>
+            <td><img src="../Car_management_system/admin_table_photos/Ford EcoSport.jpg" alt="Maruti Dzire"></td>
+            <td class="Data">#P23PP</td>
+            <td class="Data">01-07-2018</td>
+            <td class="Data">02-02-2018</td>
         </tr>
         <tr>
-            <td class="Data">Maruti Ciaz</td>
-            <td><img src="../Car_management_system/admin_table_photos/Maruti Ciaz.jpg" alt="Maruti Ciaz"></td>
-            <td class="Data">#L10FF</td>
-            <td class="Data">23-10-2015</td>
-            <td class="Data">23-11-2015</td>
+            <td class="Data">Renault Duster</td>
+            <td><img src="../Car_management_system/admin_table_photos/Renault Duster.jpg" alt="Maruti Ciaz"></td>
+            <td class="Data">#PPAP#</td>
+            <td class="Data">14-01-2018</td>
+            <td class="Data">14-01-2018</td>
         </tr>
         <tr>
             <td class="Data">Honda City</td>
             <td><img src="../Car_management_system/admin_table_photos/Honda_City_(sixth_generation)_front.JPG" alt="Honda City"></td>
-            <td class="Data">#L10FF</td>
-            <td class="Data">23-10-2015</td>
-            <td class="Data">23-11-2015</td>
+            <td class="Data">#K43JH</td>
+            <td class="Data">23-12-2017</td>
+            <td class="Data">24-12-2017</td>
         </tr>
     </table>
-    <br><br>
+      <br><br>
+    </div>
+    <!--END HISTORY -->
+
+  
     <!-- FOOTER-->
     <footer class="g-bg-color--dark-light g-color--white-opacity">
         <div class="foot">
