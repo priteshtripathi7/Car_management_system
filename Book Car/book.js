@@ -10,3 +10,7 @@ if(mm<10){
 } 
 today = yyyy+'-'+mm+'-'+dd;
 document.getElementById("somedate").setAttribute("min", today);
+
+function message(){
+	alert("Your car has been booked.!!");
+}
