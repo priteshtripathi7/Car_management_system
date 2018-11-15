@@ -87,7 +87,7 @@ a:hover {
       width: 100%;
       z-index: 1;
       position: fixed;
-      background-color: rgba(102,102,102,0.5);
+      background-color: rgba(102,102,102,0);
       display: flex;
       padding: 16px;
       font-family: sans-serif;
@@ -133,7 +133,7 @@ a:hover {
       padding: 16px;
       width: 100%;
       position: fixed;
-      background-color: rgba(102,102,102,0.5);
+      background-color: rgba(102,102,102,0);
       display: grid;
       grid-template-columns: 1fr 1fr 3fr;
     }
