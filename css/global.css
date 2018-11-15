@@ -361,6 +361,16 @@
 .g-bg-color--Something2 {
   background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
 }
+.g-bg-color--scooter {
+  background-color: #399ca4 !important;
+}
+.g-bg-color--vartik {
+  background-image: linear-gradient(180deg, #00beff 0%, #007499 100%);
+}
+.g-bg-color--eternal-constance {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%) !important;
+}
+
 /*=========================================================
       BUTTONS
 =========================================================*/

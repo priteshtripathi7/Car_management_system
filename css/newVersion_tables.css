@@ -33,13 +33,13 @@ th{
     font-size: 1.5em;
     font-weight: 400 !important;
 }
-tr:hover{
-    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
-    
-}
 tr{
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
+tr:hover{
+    background-image: linear-gradient(60deg, #c7e7e6 0%, #c7e7e6 100%); 
+}
+
 
 img{
     width: 8em;
@@ -73,7 +73,7 @@ img:active {
     padding-top: 15%;
     display: block;  
     text-align: center;
-    background-color: #00596f !important;
+    /*background-color: #00596f !important;*/
     background-opacity: 0.5;
   }
   .car_image{
@@ -96,8 +96,6 @@ img:active {
     align-content: center;
     grid-gap: justify;
     text-align: center; 
-    background-color: #00596f !important;
-
   }
   .car_image{
     height: 20em;

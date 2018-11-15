@@ -15,3 +15,7 @@ function classToggle() {
 }
 document.querySelector('.Navbar__Link-toggle')
   .addEventListener('click', classToggle);
+
+function contactButton(){
+  alert("Thanks for messeging.. We will shortly get in touch with you.");
+}

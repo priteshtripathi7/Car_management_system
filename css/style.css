@@ -162,7 +162,7 @@ li{
 /*parallax-effect*/
 .parallax_loader{
 		
-	background-image: url('../img/loader-1.jpg');
+	  background-image: url('../img/loader-1.jpg');
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
